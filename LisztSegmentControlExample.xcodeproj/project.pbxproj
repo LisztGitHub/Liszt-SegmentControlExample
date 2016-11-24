@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3DA3541DE6CBFD005B1AA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3DA3531DE6CBFD005B1AA4 /* main.m */; };
+		FF3DA3571DE6CBFD005B1AA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3DA3561DE6CBFD005B1AA4 /* AppDelegate.m */; };
+		FF3DA35A1DE6CBFD005B1AA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3DA3591DE6CBFD005B1AA4 /* ViewController.m */; };
+		FF3DA35D1DE6CBFD005B1AA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3DA35B1DE6CBFD005B1AA4 /* Main.storyboard */; };
+		FF3DA35F1DE6CBFD005B1AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3DA35E1DE6CBFD005B1AA4 /* Assets.xcassets */; };
+		FF3DA3621DE6CBFD005B1AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3DA3601DE6CBFD005B1AA4 /* LaunchScreen.storyboard */; };
+		FF3DA36D1DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3DA36C1DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests.m */; };
+		FF3DA3781DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3DA3771DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests.m */; };
+		FF3DA3881DE6CC17005B1AA4 /* LisztSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3DA3871DE6CC17005B1AA4 /* LisztSegmentControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3DA3691DE6CBFD005B1AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3DA3471DE6CBFD005B1AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3DA34E1DE6CBFD005B1AA4;
+			remoteInfo = LisztSegmentControlExample;
+		};
+		FF3DA3741DE6CBFD005B1AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3DA3471DE6CBFD005B1AA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3DA34E1DE6CBFD005B1AA4;
+			remoteInfo = LisztSegmentControlExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF3DA34F1DE6CBFD005B1AA4 /* LisztSegmentControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LisztSegmentControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3DA3531DE6CBFD005B1AA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF3DA3551DE6CBFD005B1AA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF3DA3561DE6CBFD005B1AA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF3DA3581DE6CBFD005B1AA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF3DA3591DE6CBFD005B1AA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF3DA35C1DE6CBFD005B1AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3DA35E1DE6CBFD005B1AA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3DA3611DE6CBFD005B1AA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF3DA3631DE6CBFD005B1AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3DA3681DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisztSegmentControlExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3DA36C1DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztSegmentControlExampleTests.m; sourceTree = "<group>"; };
+		FF3DA36E1DE6CBFD005B1AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3DA3731DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisztSegmentControlExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3DA3771DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztSegmentControlExampleUITests.m; sourceTree = "<group>"; };
+		FF3DA3791DE6CBFD005B1AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3DA3861DE6CC17005B1AA4 /* LisztSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LisztSegmentControl.h; sourceTree = "<group>"; };
+		FF3DA3871DE6CC17005B1AA4 /* LisztSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LisztSegmentControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3DA34C1DE6CBFD005B1AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3DA3651DE6CBFD005B1AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3DA3701DE6CBFD005B1AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3DA3461DE6CBFD005B1AA4 = {
+			isa = PBXGroup;
+			children = (
+				FF3DA3511DE6CBFD005B1AA4 /* LisztSegmentControlExample */,
+				FF3DA36B1DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests */,
+				FF3DA3761DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests */,
+				FF3DA3501DE6CBFD005B1AA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3DA3501DE6CBFD005B1AA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DA34F1DE6CBFD005B1AA4 /* LisztSegmentControlExample.app */,
+				FF3DA3681DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests.xctest */,
+				FF3DA3731DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3DA3511DE6CBFD005B1AA4 /* LisztSegmentControlExample */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DA3851DE6CC0A005B1AA4 /* LisztSegmentControl */,
+				FF3DA3551DE6CBFD005B1AA4 /* AppDelegate.h */,
+				FF3DA3561DE6CBFD005B1AA4 /* AppDelegate.m */,
+				FF3DA3581DE6CBFD005B1AA4 /* ViewController.h */,
+				FF3DA3591DE6CBFD005B1AA4 /* ViewController.m */,
+				FF3DA35B1DE6CBFD005B1AA4 /* Main.storyboard */,
+				FF3DA35E1DE6CBFD005B1AA4 /* Assets.xcassets */,
+				FF3DA3601DE6CBFD005B1AA4 /* LaunchScreen.storyboard */,
+				FF3DA3631DE6CBFD005B1AA4 /* Info.plist */,
+				FF3DA3521DE6CBFD005B1AA4 /* Supporting Files */,
+			);
+			path = LisztSegmentControlExample;
+			sourceTree = "<group>";
+		};
+		FF3DA3521DE6CBFD005B1AA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DA3531DE6CBFD005B1AA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3DA36B1DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DA36C1DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests.m */,
+				FF3DA36E1DE6CBFD005B1AA4 /* Info.plist */,
+			);
+			path = LisztSegmentControlExampleTests;
+			sourceTree = "<group>";
+		};
+		FF3DA3761DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DA3771DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests.m */,
+				FF3DA3791DE6CBFD005B1AA4 /* Info.plist */,
+			);
+			path = LisztSegmentControlExampleUITests;
+			sourceTree = "<group>";
+		};
+		FF3DA3851DE6CC0A005B1AA4 /* LisztSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				FF3DA3861DE6CC17005B1AA4 /* LisztSegmentControl.h */,
+				FF3DA3871DE6CC17005B1AA4 /* LisztSegmentControl.m */,
+			);
+			path = LisztSegmentControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3DA34E1DE6CBFD005B1AA4 /* LisztSegmentControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3DA37C1DE6CBFD005B1AA4 /* Build configuration list for PBXNativeTarget "LisztSegmentControlExample" */;
+			buildPhases = (
+				FF3DA34B1DE6CBFD005B1AA4 /* Sources */,
+				FF3DA34C1DE6CBFD005B1AA4 /* Frameworks */,
+				FF3DA34D1DE6CBFD005B1AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LisztSegmentControlExample;
+			productName = LisztSegmentControlExample;
+			productReference = FF3DA34F1DE6CBFD005B1AA4 /* LisztSegmentControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF3DA3671DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3DA37F1DE6CBFD005B1AA4 /* Build configuration list for PBXNativeTarget "LisztSegmentControlExampleTests" */;
+			buildPhases = (
+				FF3DA3641DE6CBFD005B1AA4 /* Sources */,
+				FF3DA3651DE6CBFD005B1AA4 /* Frameworks */,
+				FF3DA3661DE6CBFD005B1AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3DA36A1DE6CBFD005B1AA4 /* PBXTargetDependency */,
+			);
+			name = LisztSegmentControlExampleTests;
+			productName = LisztSegmentControlExampleTests;
+			productReference = FF3DA3681DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF3DA3721DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3DA3821DE6CBFD005B1AA4 /* Build configuration list for PBXNativeTarget "LisztSegmentControlExampleUITests" */;
+			buildPhases = (
+				FF3DA36F1DE6CBFD005B1AA4 /* Sources */,
+				FF3DA3701DE6CBFD005B1AA4 /* Frameworks */,
+				FF3DA3711DE6CBFD005B1AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3DA3751DE6CBFD005B1AA4 /* PBXTargetDependency */,
+			);
+			name = LisztSegmentControlExampleUITests;
+			productName = LisztSegmentControlExampleUITests;
+			productReference = FF3DA3731DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3DA3471DE6CBFD005B1AA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "https://github.com/LisztGitHub";
+				TargetAttributes = {
+					FF3DA34E1DE6CBFD005B1AA4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+					};
+					FF3DA3671DE6CBFD005B1AA4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF3DA34E1DE6CBFD005B1AA4;
+					};
+					FF3DA3721DE6CBFD005B1AA4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF3DA34E1DE6CBFD005B1AA4;
+					};
+				};
+			};
+			buildConfigurationList = FF3DA34A1DE6CBFD005B1AA4 /* Build configuration list for PBXProject "LisztSegmentControlExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3DA3461DE6CBFD005B1AA4;
+			productRefGroup = FF3DA3501DE6CBFD005B1AA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3DA34E1DE6CBFD005B1AA4 /* LisztSegmentControlExample */,
+				FF3DA3671DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests */,
+				FF3DA3721DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3DA34D1DE6CBFD005B1AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3DA3621DE6CBFD005B1AA4 /* LaunchScreen.storyboard in Resources */,
+				FF3DA35F1DE6CBFD005B1AA4 /* Assets.xcassets in Resources */,
+				FF3DA35D1DE6CBFD005B1AA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3DA3661DE6CBFD005B1AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3DA3711DE6CBFD005B1AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3DA34B1DE6CBFD005B1AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3DA35A1DE6CBFD005B1AA4 /* ViewController.m in Sources */,
+				FF3DA3571DE6CBFD005B1AA4 /* AppDelegate.m in Sources */,
+				FF3DA3881DE6CC17005B1AA4 /* LisztSegmentControl.m in Sources */,
+				FF3DA3541DE6CBFD005B1AA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3DA3641DE6CBFD005B1AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3DA36D1DE6CBFD005B1AA4 /* LisztSegmentControlExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3DA36F1DE6CBFD005B1AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3DA3781DE6CBFD005B1AA4 /* LisztSegmentControlExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF3DA36A1DE6CBFD005B1AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3DA34E1DE6CBFD005B1AA4 /* LisztSegmentControlExample */;
+			targetProxy = FF3DA3691DE6CBFD005B1AA4 /* PBXContainerItemProxy */;
+		};
+		FF3DA3751DE6CBFD005B1AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF3DA34E1DE6CBFD005B1AA4 /* LisztSegmentControlExample */;
+			targetProxy = FF3DA3741DE6CBFD005B1AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF3DA35B1DE6CBFD005B1AA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3DA35C1DE6CBFD005B1AA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3DA3601DE6CBFD005B1AA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3DA3611DE6CBFD005B1AA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3DA37A1DE6CBFD005B1AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF3DA37B1DE6CBFD005B1AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3DA37D1DE6CBFD005B1AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztSegmentControlExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztSegmentControlExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF3DA37E1DE6CBFD005B1AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztSegmentControlExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztSegmentControlExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF3DA3801DE6CBFD005B1AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztSegmentControlExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztSegmentControlExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztSegmentControlExample.app/LisztSegmentControlExample";
+			};
+			name = Debug;
+		};
+		FF3DA3811DE6CBFD005B1AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztSegmentControlExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztSegmentControlExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztSegmentControlExample.app/LisztSegmentControlExample";
+			};
+			name = Release;
+		};
+		FF3DA3831DE6CBFD005B1AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztSegmentControlExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztSegmentControlExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LisztSegmentControlExample;
+			};
+			name = Debug;
+		};
+		FF3DA3841DE6CBFD005B1AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztSegmentControlExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztSegmentControlExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LisztSegmentControlExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3DA34A1DE6CBFD005B1AA4 /* Build configuration list for PBXProject "LisztSegmentControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3DA37A1DE6CBFD005B1AA4 /* Debug */,
+				FF3DA37B1DE6CBFD005B1AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3DA37C1DE6CBFD005B1AA4 /* Build configuration list for PBXNativeTarget "LisztSegmentControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3DA37D1DE6CBFD005B1AA4 /* Debug */,
+				FF3DA37E1DE6CBFD005B1AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF3DA37F1DE6CBFD005B1AA4 /* Build configuration list for PBXNativeTarget "LisztSegmentControlExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3DA3801DE6CBFD005B1AA4 /* Debug */,
+				FF3DA3811DE6CBFD005B1AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF3DA3821DE6CBFD005B1AA4 /* Build configuration list for PBXNativeTarget "LisztSegmentControlExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3DA3831DE6CBFD005B1AA4 /* Debug */,
+				FF3DA3841DE6CBFD005B1AA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3DA3471DE6CBFD005B1AA4 /* Project object */;
+}
